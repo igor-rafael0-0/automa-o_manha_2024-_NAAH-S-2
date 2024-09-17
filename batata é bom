@@ -1,0 +1,25 @@
+  import java.util.Scanner;
+
+public class Main
+{
+    public static void main(String[] args) {
+        System.out.println("Welcome to Online IDE!! Happy Coding :)");
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.print("digite sua idade: ");
+        
+        int idade = scan.nextInt();
+        
+        if (idade >=18){
+        
+        System.out.println("você é maior de idade");
+        }
+        else{ 
+        
+        System.out.println("você é menor de idade");
+        }
+        
+        
+        
+    }
+}
